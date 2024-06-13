@@ -3,12 +3,13 @@ This Solidity program is a simple "MyToken" smart contract that demonstrates the
 
 This contract allows for the creation and management of a simple token on the Ethereum blockchain. It includes functionality to mint new tokens and burn existing tokens, along with storing details about the token.
 
-Requirements
+#Requirements
 Public Variables: The contract has public variables that store the details about the coin (Token Name, Token Abbrv., Total Supply).
 Mapping: There is a mapping of addresses to balances (address => uint).
 Mint Function: A function to mint new tokens, increasing the total supply and the balance of the specified address.
 Burn Function: A function to burn tokens, decreasing the total supply and the balance of the specified address, with checks to ensure sufficient balance.
 Conditional Burn: The burn function includes conditionals to ensure the balance of the "sender" is greater than or equal to the amount to be burned.
+
 Getting Started
 Prerequisites
 To run this program, you can use Remix, an online Solidity IDE.
